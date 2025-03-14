@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.ComponentModel;
 using System.Diagnostics;
 using System.Drawing;
@@ -18,7 +18,7 @@ public class FrmMain : Form, IAudioHandler, IRenderHandler
 
 	private static string mypath = Application.StartupPath;
 
-	public static IniFile ini = new IniFile(mypath + "ScePSX.ini");
+	public static IniFile ini = new IniFile(mypath + "\\ScePSX.ini");
 
 	private string currbios;
 
