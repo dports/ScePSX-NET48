@@ -27,8 +27,8 @@
 > **Smooth Running Test**: Smooth running at 60 FPS on Intel Celeron i3 3215u.
 *No gamedb, no reshade.
 
-! [capture1](https://github.com/user-attachments/assets/27f7ac35-f296-4bdc-9164-498ea4342314)
-! [capture](https://github.com/user-attachments/assets/88c1f283-127c-4f74-9cbe-7e64def43962)
+![Capture1](https://github.com/user-attachments/assets/27f7ac35-f296-4bdc-9164-498ea4342314)
+![Capture2](https://github.com/user-attachments/assets/88c1f283-127c-4f74-9cbe-7e64def43962)
 
 ### How to use 🛠️
 
