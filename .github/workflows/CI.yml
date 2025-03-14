@@ -1,0 +1,35 @@
+name: CI
+
+on: [push]
+
+jobs:
+  build:
+
+    runs-on: [windows-2022]
+
+    steps:
+    - name: Setup MSBuild.exe
+      uses: microsoft/setup-msbuild@v2
+      env:
+        ACTIONS_ALLOW_UNSECURE_COMMANDS: 'true'
+
+    - name: Setup Nuget.exe
+      uses: nuget/setup-nuget@v2
+      env:
+        ACTIONS_ALLOW_UNSECURE_COMMANDS: 'true'
+
+    - uses: actions/checkout@v4
+    - name: Build
+      run: |
+        git submodule update --init --recursive
+        nuget restore ScePSX.sln
+        msbuild ScePSX.sln /p:Configuration=Release /m /verbosity:normal /p:WarningLevel=0
+    - name: Create ZIP
+      run: |
+        Compress-Archive -Path Release/* -DestinationPath ScePSX-NET48
+        
+    - name: Upload Artifact
+      uses: actions/upload-artifact@v4
+      with:
+        path: ScePSX-NET48.zip
+        name: ScePSX-NET48.zip
