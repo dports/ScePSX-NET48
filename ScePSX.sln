@@ -1,26 +1,33 @@
-﻿
-Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 17
-VisualStudioVersion = 17.4.33122.133
+﻿Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ScePSX", "ScePSX\ScePSX.csproj", "{23C80192-0C30-41C9-9A29-A54DF6B55B21}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenGL", "OpenGL\OpenGL.csproj", "{06A17294-7E9D-48F2-839D-AD87DCF6F0DF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScePSX", "ScePSX\ScePSX.csproj", "{22D08CCC-1357-4E4D-9067-25CF10FFF253}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "vk", "vk\vk.csproj", "{C7E5A3F2-BA4D-4EB9-AE5F-83BCFD09B815}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
-		Debug|Any CPU = Debug|Any CPU
-		Release|Any CPU = Release|Any CPU
+		Debug|AnyCPU = Debug|AnyCPU
+		Release|AnyCPU = Release|AnyCPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{23C80192-0C30-41C9-9A29-A54DF6B55B21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{23C80192-0C30-41C9-9A29-A54DF6B55B21}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{23C80192-0C30-41C9-9A29-A54DF6B55B21}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{23C80192-0C30-41C9-9A29-A54DF6B55B21}.Release|Any CPU.Build.0 = Release|Any CPU
+		{06A17294-7E9D-48F2-839D-AD87DCF6F0DF}.Debug|AnyCPU.ActiveCfg = Debug|AnyCPU
+		{06A17294-7E9D-48F2-839D-AD87DCF6F0DF}.Debug|AnyCPU.Build.0 = Debug|AnyCPU
+		{06A17294-7E9D-48F2-839D-AD87DCF6F0DF}.Release|AnyCPU.ActiveCfg = Release|AnyCPU
+		{06A17294-7E9D-48F2-839D-AD87DCF6F0DF}.Release|AnyCPU.Build.0 = Release|AnyCPU
+		{22D08CCC-1357-4E4D-9067-25CF10FFF253}.Debug|AnyCPU.ActiveCfg = Debug|AnyCPU
+		{22D08CCC-1357-4E4D-9067-25CF10FFF253}.Debug|AnyCPU.Build.0 = Debug|AnyCPU
+		{22D08CCC-1357-4E4D-9067-25CF10FFF253}.Release|AnyCPU.ActiveCfg = Release|AnyCPU
+		{22D08CCC-1357-4E4D-9067-25CF10FFF253}.Release|AnyCPU.Build.0 = Release|AnyCPU
+		{C7E5A3F2-BA4D-4EB9-AE5F-83BCFD09B815}.Debug|AnyCPU.ActiveCfg = Debug|AnyCPU
+		{C7E5A3F2-BA4D-4EB9-AE5F-83BCFD09B815}.Debug|AnyCPU.Build.0 = Debug|AnyCPU
+		{C7E5A3F2-BA4D-4EB9-AE5F-83BCFD09B815}.Release|AnyCPU.ActiveCfg = Release|AnyCPU
+		{C7E5A3F2-BA4D-4EB9-AE5F-83BCFD09B815}.Release|AnyCPU.Build.0 = Release|AnyCPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(ExtensibilityGlobals) = postSolution
-		RESX_NeutralResourcesLanguage = en-US
-		SolutionGuid = {E3A2E56B-76A2-48AB-9956-E37740A08775}
 	EndGlobalSection
 EndGlobal

@@ -1,0 +1,201 @@
+using Khronos;
+
+namespace OpenGL;
+
+public enum TextureUnit
+{
+	[RequiredByFeature("GL_VERSION_1_3")]
+	[RequiredByFeature("GL_VERSION_ES_CM_1_0", Api = "gles1")]
+	[RequiredByFeature("GL_ES_VERSION_2_0", Api = "gles2")]
+	[RequiredByFeature("GL_SC_VERSION_2_0", Api = "glsc2")]
+	[RequiredByFeature("GL_ARB_multitexture")]
+	[RequiredByFeature("GL_NV_register_combiners")]
+	Texture0 = 33984,
+	[RequiredByFeature("GL_VERSION_1_3")]
+	[RequiredByFeature("GL_VERSION_ES_CM_1_0", Api = "gles1")]
+	[RequiredByFeature("GL_ES_VERSION_2_0", Api = "gles2")]
+	[RequiredByFeature("GL_SC_VERSION_2_0", Api = "glsc2")]
+	[RequiredByFeature("GL_ARB_multitexture")]
+	[RequiredByFeature("GL_NV_register_combiners")]
+	Texture1,
+	[RequiredByFeature("GL_VERSION_1_3")]
+	[RequiredByFeature("GL_VERSION_ES_CM_1_0", Api = "gles1")]
+	[RequiredByFeature("GL_ES_VERSION_2_0", Api = "gles2")]
+	[RequiredByFeature("GL_SC_VERSION_2_0", Api = "glsc2")]
+	[RequiredByFeature("GL_ARB_multitexture")]
+	Texture2,
+	[RequiredByFeature("GL_VERSION_1_3")]
+	[RequiredByFeature("GL_VERSION_ES_CM_1_0", Api = "gles1")]
+	[RequiredByFeature("GL_ES_VERSION_2_0", Api = "gles2")]
+	[RequiredByFeature("GL_SC_VERSION_2_0", Api = "glsc2")]
+	[RequiredByFeature("GL_ARB_multitexture")]
+	Texture3,
+	[RequiredByFeature("GL_VERSION_1_3")]
+	[RequiredByFeature("GL_VERSION_ES_CM_1_0", Api = "gles1")]
+	[RequiredByFeature("GL_ES_VERSION_2_0", Api = "gles2")]
+	[RequiredByFeature("GL_SC_VERSION_2_0", Api = "glsc2")]
+	[RequiredByFeature("GL_ARB_multitexture")]
+	Texture4,
+	[RequiredByFeature("GL_VERSION_1_3")]
+	[RequiredByFeature("GL_VERSION_ES_CM_1_0", Api = "gles1")]
+	[RequiredByFeature("GL_ES_VERSION_2_0", Api = "gles2")]
+	[RequiredByFeature("GL_SC_VERSION_2_0", Api = "glsc2")]
+	[RequiredByFeature("GL_ARB_multitexture")]
+	Texture5,
+	[RequiredByFeature("GL_VERSION_1_3")]
+	[RequiredByFeature("GL_VERSION_ES_CM_1_0", Api = "gles1")]
+	[RequiredByFeature("GL_ES_VERSION_2_0", Api = "gles2")]
+	[RequiredByFeature("GL_SC_VERSION_2_0", Api = "glsc2")]
+	[RequiredByFeature("GL_ARB_multitexture")]
+	Texture6,
+	[RequiredByFeature("GL_VERSION_1_3")]
+	[RequiredByFeature("GL_VERSION_ES_CM_1_0", Api = "gles1")]
+	[RequiredByFeature("GL_ES_VERSION_2_0", Api = "gles2")]
+	[RequiredByFeature("GL_SC_VERSION_2_0", Api = "glsc2")]
+	[RequiredByFeature("GL_ARB_multitexture")]
+	Texture7,
+	[RequiredByFeature("GL_VERSION_1_3")]
+	[RequiredByFeature("GL_VERSION_ES_CM_1_0", Api = "gles1")]
+	[RequiredByFeature("GL_ES_VERSION_2_0", Api = "gles2")]
+	[RequiredByFeature("GL_SC_VERSION_2_0", Api = "glsc2")]
+	[RequiredByFeature("GL_ARB_multitexture")]
+	Texture8,
+	[RequiredByFeature("GL_VERSION_1_3")]
+	[RequiredByFeature("GL_VERSION_ES_CM_1_0", Api = "gles1")]
+	[RequiredByFeature("GL_ES_VERSION_2_0", Api = "gles2")]
+	[RequiredByFeature("GL_SC_VERSION_2_0", Api = "glsc2")]
+	[RequiredByFeature("GL_ARB_multitexture")]
+	Texture9,
+	[RequiredByFeature("GL_VERSION_1_3")]
+	[RequiredByFeature("GL_VERSION_ES_CM_1_0", Api = "gles1")]
+	[RequiredByFeature("GL_ES_VERSION_2_0", Api = "gles2")]
+	[RequiredByFeature("GL_SC_VERSION_2_0", Api = "glsc2")]
+	[RequiredByFeature("GL_ARB_multitexture")]
+	Texture10,
+	[RequiredByFeature("GL_VERSION_1_3")]
+	[RequiredByFeature("GL_VERSION_ES_CM_1_0", Api = "gles1")]
+	[RequiredByFeature("GL_ES_VERSION_2_0", Api = "gles2")]
+	[RequiredByFeature("GL_SC_VERSION_2_0", Api = "glsc2")]
+	[RequiredByFeature("GL_ARB_multitexture")]
+	Texture11,
+	[RequiredByFeature("GL_VERSION_1_3")]
+	[RequiredByFeature("GL_VERSION_ES_CM_1_0", Api = "gles1")]
+	[RequiredByFeature("GL_ES_VERSION_2_0", Api = "gles2")]
+	[RequiredByFeature("GL_SC_VERSION_2_0", Api = "glsc2")]
+	[RequiredByFeature("GL_ARB_multitexture")]
+	Texture12,
+	[RequiredByFeature("GL_VERSION_1_3")]
+	[RequiredByFeature("GL_VERSION_ES_CM_1_0", Api = "gles1")]
+	[RequiredByFeature("GL_ES_VERSION_2_0", Api = "gles2")]
+	[RequiredByFeature("GL_SC_VERSION_2_0", Api = "glsc2")]
+	[RequiredByFeature("GL_ARB_multitexture")]
+	Texture13,
+	[RequiredByFeature("GL_VERSION_1_3")]
+	[RequiredByFeature("GL_VERSION_ES_CM_1_0", Api = "gles1")]
+	[RequiredByFeature("GL_ES_VERSION_2_0", Api = "gles2")]
+	[RequiredByFeature("GL_SC_VERSION_2_0", Api = "glsc2")]
+	[RequiredByFeature("GL_ARB_multitexture")]
+	Texture14,
+	[RequiredByFeature("GL_VERSION_1_3")]
+	[RequiredByFeature("GL_VERSION_ES_CM_1_0", Api = "gles1")]
+	[RequiredByFeature("GL_ES_VERSION_2_0", Api = "gles2")]
+	[RequiredByFeature("GL_SC_VERSION_2_0", Api = "glsc2")]
+	[RequiredByFeature("GL_ARB_multitexture")]
+	Texture15,
+	[RequiredByFeature("GL_VERSION_1_3")]
+	[RequiredByFeature("GL_VERSION_ES_CM_1_0", Api = "gles1")]
+	[RequiredByFeature("GL_ES_VERSION_2_0", Api = "gles2")]
+	[RequiredByFeature("GL_SC_VERSION_2_0", Api = "glsc2")]
+	[RequiredByFeature("GL_ARB_multitexture")]
+	Texture16,
+	[RequiredByFeature("GL_VERSION_1_3")]
+	[RequiredByFeature("GL_VERSION_ES_CM_1_0", Api = "gles1")]
+	[RequiredByFeature("GL_ES_VERSION_2_0", Api = "gles2")]
+	[RequiredByFeature("GL_SC_VERSION_2_0", Api = "glsc2")]
+	[RequiredByFeature("GL_ARB_multitexture")]
+	Texture17,
+	[RequiredByFeature("GL_VERSION_1_3")]
+	[RequiredByFeature("GL_VERSION_ES_CM_1_0", Api = "gles1")]
+	[RequiredByFeature("GL_ES_VERSION_2_0", Api = "gles2")]
+	[RequiredByFeature("GL_SC_VERSION_2_0", Api = "glsc2")]
+	[RequiredByFeature("GL_ARB_multitexture")]
+	Texture18,
+	[RequiredByFeature("GL_VERSION_1_3")]
+	[RequiredByFeature("GL_VERSION_ES_CM_1_0", Api = "gles1")]
+	[RequiredByFeature("GL_ES_VERSION_2_0", Api = "gles2")]
+	[RequiredByFeature("GL_SC_VERSION_2_0", Api = "glsc2")]
+	[RequiredByFeature("GL_ARB_multitexture")]
+	Texture19,
+	[RequiredByFeature("GL_VERSION_1_3")]
+	[RequiredByFeature("GL_VERSION_ES_CM_1_0", Api = "gles1")]
+	[RequiredByFeature("GL_ES_VERSION_2_0", Api = "gles2")]
+	[RequiredByFeature("GL_SC_VERSION_2_0", Api = "glsc2")]
+	[RequiredByFeature("GL_ARB_multitexture")]
+	Texture20,
+	[RequiredByFeature("GL_VERSION_1_3")]
+	[RequiredByFeature("GL_VERSION_ES_CM_1_0", Api = "gles1")]
+	[RequiredByFeature("GL_ES_VERSION_2_0", Api = "gles2")]
+	[RequiredByFeature("GL_SC_VERSION_2_0", Api = "glsc2")]
+	[RequiredByFeature("GL_ARB_multitexture")]
+	Texture21,
+	[RequiredByFeature("GL_VERSION_1_3")]
+	[RequiredByFeature("GL_VERSION_ES_CM_1_0", Api = "gles1")]
+	[RequiredByFeature("GL_ES_VERSION_2_0", Api = "gles2")]
+	[RequiredByFeature("GL_SC_VERSION_2_0", Api = "glsc2")]
+	[RequiredByFeature("GL_ARB_multitexture")]
+	Texture22,
+	[RequiredByFeature("GL_VERSION_1_3")]
+	[RequiredByFeature("GL_VERSION_ES_CM_1_0", Api = "gles1")]
+	[RequiredByFeature("GL_ES_VERSION_2_0", Api = "gles2")]
+	[RequiredByFeature("GL_SC_VERSION_2_0", Api = "glsc2")]
+	[RequiredByFeature("GL_ARB_multitexture")]
+	Texture23,
+	[RequiredByFeature("GL_VERSION_1_3")]
+	[RequiredByFeature("GL_VERSION_ES_CM_1_0", Api = "gles1")]
+	[RequiredByFeature("GL_ES_VERSION_2_0", Api = "gles2")]
+	[RequiredByFeature("GL_SC_VERSION_2_0", Api = "glsc2")]
+	[RequiredByFeature("GL_ARB_multitexture")]
+	Texture24,
+	[RequiredByFeature("GL_VERSION_1_3")]
+	[RequiredByFeature("GL_VERSION_ES_CM_1_0", Api = "gles1")]
+	[RequiredByFeature("GL_ES_VERSION_2_0", Api = "gles2")]
+	[RequiredByFeature("GL_SC_VERSION_2_0", Api = "glsc2")]
+	[RequiredByFeature("GL_ARB_multitexture")]
+	Texture25,
+	[RequiredByFeature("GL_VERSION_1_3")]
+	[RequiredByFeature("GL_VERSION_ES_CM_1_0", Api = "gles1")]
+	[RequiredByFeature("GL_ES_VERSION_2_0", Api = "gles2")]
+	[RequiredByFeature("GL_SC_VERSION_2_0", Api = "glsc2")]
+	[RequiredByFeature("GL_ARB_multitexture")]
+	Texture26,
+	[RequiredByFeature("GL_VERSION_1_3")]
+	[RequiredByFeature("GL_VERSION_ES_CM_1_0", Api = "gles1")]
+	[RequiredByFeature("GL_ES_VERSION_2_0", Api = "gles2")]
+	[RequiredByFeature("GL_SC_VERSION_2_0", Api = "glsc2")]
+	[RequiredByFeature("GL_ARB_multitexture")]
+	Texture27,
+	[RequiredByFeature("GL_VERSION_1_3")]
+	[RequiredByFeature("GL_VERSION_ES_CM_1_0", Api = "gles1")]
+	[RequiredByFeature("GL_ES_VERSION_2_0", Api = "gles2")]
+	[RequiredByFeature("GL_SC_VERSION_2_0", Api = "glsc2")]
+	[RequiredByFeature("GL_ARB_multitexture")]
+	Texture28,
+	[RequiredByFeature("GL_VERSION_1_3")]
+	[RequiredByFeature("GL_VERSION_ES_CM_1_0", Api = "gles1")]
+	[RequiredByFeature("GL_ES_VERSION_2_0", Api = "gles2")]
+	[RequiredByFeature("GL_SC_VERSION_2_0", Api = "glsc2")]
+	[RequiredByFeature("GL_ARB_multitexture")]
+	Texture29,
+	[RequiredByFeature("GL_VERSION_1_3")]
+	[RequiredByFeature("GL_VERSION_ES_CM_1_0", Api = "gles1")]
+	[RequiredByFeature("GL_ES_VERSION_2_0", Api = "gles2")]
+	[RequiredByFeature("GL_SC_VERSION_2_0", Api = "glsc2")]
+	[RequiredByFeature("GL_ARB_multitexture")]
+	Texture30,
+	[RequiredByFeature("GL_VERSION_1_3")]
+	[RequiredByFeature("GL_VERSION_ES_CM_1_0", Api = "gles1")]
+	[RequiredByFeature("GL_ES_VERSION_2_0", Api = "gles2")]
+	[RequiredByFeature("GL_SC_VERSION_2_0", Api = "glsc2")]
+	[RequiredByFeature("GL_ARB_multitexture")]
+	Texture31
+}

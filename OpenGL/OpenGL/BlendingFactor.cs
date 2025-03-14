@@ -1,0 +1,136 @@
+using Khronos;
+
+namespace OpenGL;
+
+public enum BlendingFactor
+{
+	[RequiredByFeature("GL_VERSION_1_0")]
+	[RequiredByFeature("GL_VERSION_ES_CM_1_0", Api = "gles1")]
+	[RequiredByFeature("GL_ES_VERSION_2_0", Api = "gles2")]
+	[RequiredByFeature("GL_SC_VERSION_2_0", Api = "glsc2")]
+	[RequiredByFeature("GL_EXT_draw_buffers_indexed", Api = "gles2")]
+	[RequiredByFeature("GL_NV_blend_equation_advanced", Api = "gl|glcore|gles2")]
+	[RequiredByFeature("GL_NV_register_combiners")]
+	[RequiredByFeature("GL_OES_draw_buffers_indexed", Api = "gles2")]
+	Zero = 0,
+	[RequiredByFeature("GL_VERSION_1_0")]
+	[RequiredByFeature("GL_VERSION_ES_CM_1_0", Api = "gles1")]
+	[RequiredByFeature("GL_ES_VERSION_2_0", Api = "gles2")]
+	[RequiredByFeature("GL_SC_VERSION_2_0", Api = "glsc2")]
+	[RequiredByFeature("GL_EXT_draw_buffers_indexed", Api = "gles2")]
+	[RequiredByFeature("GL_OES_draw_buffers_indexed", Api = "gles2")]
+	One = 1,
+	[RequiredByFeature("GL_VERSION_1_0")]
+	[RequiredByFeature("GL_VERSION_ES_CM_1_0", Api = "gles1")]
+	[RequiredByFeature("GL_ES_VERSION_2_0", Api = "gles2")]
+	[RequiredByFeature("GL_SC_VERSION_2_0", Api = "glsc2")]
+	[RequiredByFeature("GL_EXT_draw_buffers_indexed", Api = "gles2")]
+	[RequiredByFeature("GL_OES_draw_buffers_indexed", Api = "gles2")]
+	SrcColor = 768,
+	[RequiredByFeature("GL_VERSION_1_0")]
+	[RequiredByFeature("GL_VERSION_ES_CM_1_0", Api = "gles1")]
+	[RequiredByFeature("GL_ES_VERSION_2_0", Api = "gles2")]
+	[RequiredByFeature("GL_SC_VERSION_2_0", Api = "glsc2")]
+	[RequiredByFeature("GL_EXT_draw_buffers_indexed", Api = "gles2")]
+	[RequiredByFeature("GL_OES_draw_buffers_indexed", Api = "gles2")]
+	OneMinusSrcColor = 769,
+	[RequiredByFeature("GL_VERSION_1_0")]
+	[RequiredByFeature("GL_VERSION_ES_CM_1_0", Api = "gles1")]
+	[RequiredByFeature("GL_ES_VERSION_2_0", Api = "gles2")]
+	[RequiredByFeature("GL_SC_VERSION_2_0", Api = "glsc2")]
+	[RequiredByFeature("GL_EXT_draw_buffers_indexed", Api = "gles2")]
+	[RequiredByFeature("GL_OES_draw_buffers_indexed", Api = "gles2")]
+	SrcAlpha = 770,
+	[RequiredByFeature("GL_VERSION_1_0")]
+	[RequiredByFeature("GL_VERSION_ES_CM_1_0", Api = "gles1")]
+	[RequiredByFeature("GL_ES_VERSION_2_0", Api = "gles2")]
+	[RequiredByFeature("GL_SC_VERSION_2_0", Api = "glsc2")]
+	[RequiredByFeature("GL_EXT_draw_buffers_indexed", Api = "gles2")]
+	[RequiredByFeature("GL_OES_draw_buffers_indexed", Api = "gles2")]
+	OneMinusSrcAlpha = 771,
+	[RequiredByFeature("GL_VERSION_1_0")]
+	[RequiredByFeature("GL_VERSION_ES_CM_1_0", Api = "gles1")]
+	[RequiredByFeature("GL_ES_VERSION_2_0", Api = "gles2")]
+	[RequiredByFeature("GL_SC_VERSION_2_0", Api = "glsc2")]
+	[RequiredByFeature("GL_EXT_draw_buffers_indexed", Api = "gles2")]
+	[RequiredByFeature("GL_OES_draw_buffers_indexed", Api = "gles2")]
+	DstAlpha = 772,
+	[RequiredByFeature("GL_VERSION_1_0")]
+	[RequiredByFeature("GL_VERSION_ES_CM_1_0", Api = "gles1")]
+	[RequiredByFeature("GL_ES_VERSION_2_0", Api = "gles2")]
+	[RequiredByFeature("GL_SC_VERSION_2_0", Api = "glsc2")]
+	[RequiredByFeature("GL_EXT_draw_buffers_indexed", Api = "gles2")]
+	[RequiredByFeature("GL_OES_draw_buffers_indexed", Api = "gles2")]
+	OneMinusDstAlpha = 773,
+	[RequiredByFeature("GL_VERSION_1_0")]
+	[RequiredByFeature("GL_VERSION_ES_CM_1_0", Api = "gles1")]
+	[RequiredByFeature("GL_ES_VERSION_2_0", Api = "gles2")]
+	[RequiredByFeature("GL_SC_VERSION_2_0", Api = "glsc2")]
+	[RequiredByFeature("GL_EXT_draw_buffers_indexed", Api = "gles2")]
+	[RequiredByFeature("GL_OES_draw_buffers_indexed", Api = "gles2")]
+	DstColor = 774,
+	[RequiredByFeature("GL_VERSION_1_0")]
+	[RequiredByFeature("GL_VERSION_ES_CM_1_0", Api = "gles1")]
+	[RequiredByFeature("GL_ES_VERSION_2_0", Api = "gles2")]
+	[RequiredByFeature("GL_SC_VERSION_2_0", Api = "glsc2")]
+	[RequiredByFeature("GL_EXT_draw_buffers_indexed", Api = "gles2")]
+	[RequiredByFeature("GL_OES_draw_buffers_indexed", Api = "gles2")]
+	OneMinusDstColor = 775,
+	[RequiredByFeature("GL_VERSION_1_0")]
+	[RequiredByFeature("GL_VERSION_ES_CM_1_0", Api = "gles1")]
+	[RequiredByFeature("GL_ES_VERSION_2_0", Api = "gles2")]
+	[RequiredByFeature("GL_SC_VERSION_2_0", Api = "glsc2")]
+	[RequiredByFeature("GL_EXT_draw_buffers_indexed", Api = "gles2")]
+	[RequiredByFeature("GL_OES_draw_buffers_indexed", Api = "gles2")]
+	[RequiredByFeature("GL_EXT_blend_func_extended", Api = "gles2")]
+	SrcAlphaSaturate = 776,
+	[RequiredByFeature("GL_VERSION_1_4")]
+	[RequiredByFeature("GL_ES_VERSION_2_0", Api = "gles2")]
+	[RequiredByFeature("GL_SC_VERSION_2_0", Api = "glsc2")]
+	[RequiredByFeature("GL_ARB_imaging", Api = "gl|glcore")]
+	[RequiredByFeature("GL_EXT_draw_buffers_indexed", Api = "gles2")]
+	[RequiredByFeature("GL_OES_draw_buffers_indexed", Api = "gles2")]
+	[RequiredByFeature("GL_EXT_blend_color")]
+	ConstantColor = 32769,
+	[RequiredByFeature("GL_VERSION_1_4")]
+	[RequiredByFeature("GL_ES_VERSION_2_0", Api = "gles2")]
+	[RequiredByFeature("GL_SC_VERSION_2_0", Api = "glsc2")]
+	[RequiredByFeature("GL_ARB_imaging", Api = "gl|glcore")]
+	[RequiredByFeature("GL_EXT_draw_buffers_indexed", Api = "gles2")]
+	[RequiredByFeature("GL_OES_draw_buffers_indexed", Api = "gles2")]
+	[RequiredByFeature("GL_EXT_blend_color")]
+	OneMinusConstantColor = 32770,
+	[RequiredByFeature("GL_VERSION_1_4")]
+	[RequiredByFeature("GL_ES_VERSION_2_0", Api = "gles2")]
+	[RequiredByFeature("GL_SC_VERSION_2_0", Api = "glsc2")]
+	[RequiredByFeature("GL_ARB_imaging", Api = "gl|glcore")]
+	[RequiredByFeature("GL_EXT_draw_buffers_indexed", Api = "gles2")]
+	[RequiredByFeature("GL_OES_draw_buffers_indexed", Api = "gles2")]
+	[RequiredByFeature("GL_EXT_blend_color")]
+	ConstantAlpha = 32771,
+	[RequiredByFeature("GL_VERSION_1_4")]
+	[RequiredByFeature("GL_ES_VERSION_2_0", Api = "gles2")]
+	[RequiredByFeature("GL_SC_VERSION_2_0", Api = "glsc2")]
+	[RequiredByFeature("GL_ARB_imaging", Api = "gl|glcore")]
+	[RequiredByFeature("GL_EXT_draw_buffers_indexed", Api = "gles2")]
+	[RequiredByFeature("GL_OES_draw_buffers_indexed", Api = "gles2")]
+	[RequiredByFeature("GL_EXT_blend_color")]
+	OneMinusConstantAlpha = 32772,
+	[RequiredByFeature("GL_VERSION_1_3")]
+	[RequiredByFeature("GL_ARB_texture_env_combine")]
+	[RequiredByFeature("GL_EXT_texture_env_combine")]
+	[RemovedByFeature("GL_VERSION_3_2")]
+	Source1Alpha = 34185,
+	[RequiredByFeature("GL_VERSION_3_3")]
+	[RequiredByFeature("GL_ARB_blend_func_extended", Api = "gl|glcore")]
+	[RequiredByFeature("GL_EXT_blend_func_extended", Api = "gles2")]
+	Src1Color = 35065,
+	[RequiredByFeature("GL_VERSION_3_3")]
+	[RequiredByFeature("GL_ARB_blend_func_extended", Api = "gl|glcore")]
+	[RequiredByFeature("GL_EXT_blend_func_extended", Api = "gles2")]
+	OneMinusSrc1Color = 35066,
+	[RequiredByFeature("GL_VERSION_3_3")]
+	[RequiredByFeature("GL_ARB_blend_func_extended", Api = "gl|glcore")]
+	[RequiredByFeature("GL_EXT_blend_func_extended", Api = "gles2")]
+	OneMinusSrc1Alpha = 35067
+}

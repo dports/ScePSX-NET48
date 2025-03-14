@@ -1,0 +1,71 @@
+using Khronos;
+
+namespace OpenGL;
+
+public enum FragmentShaderRegATI
+{
+	[RequiredByFeature("GL_ATI_fragment_shader")]
+	Reg0Ati = 35105,
+	[RequiredByFeature("GL_ATI_fragment_shader")]
+	Reg1Ati,
+	[RequiredByFeature("GL_ATI_fragment_shader")]
+	Reg2Ati,
+	[RequiredByFeature("GL_ATI_fragment_shader")]
+	Reg3Ati,
+	[RequiredByFeature("GL_ATI_fragment_shader")]
+	Reg4Ati,
+	[RequiredByFeature("GL_ATI_fragment_shader")]
+	Reg5Ati,
+	[RequiredByFeature("GL_ATI_fragment_shader")]
+	Reg6Ati,
+	[RequiredByFeature("GL_ATI_fragment_shader")]
+	Reg7Ati,
+	[RequiredByFeature("GL_ATI_fragment_shader")]
+	Reg8Ati,
+	[RequiredByFeature("GL_ATI_fragment_shader")]
+	Reg9Ati,
+	[RequiredByFeature("GL_ATI_fragment_shader")]
+	Reg10Ati,
+	[RequiredByFeature("GL_ATI_fragment_shader")]
+	Reg11Ati,
+	[RequiredByFeature("GL_ATI_fragment_shader")]
+	Reg12Ati,
+	[RequiredByFeature("GL_ATI_fragment_shader")]
+	Reg13Ati,
+	[RequiredByFeature("GL_ATI_fragment_shader")]
+	Reg14Ati,
+	[RequiredByFeature("GL_ATI_fragment_shader")]
+	Reg15Ati,
+	[RequiredByFeature("GL_ATI_fragment_shader")]
+	Reg16Ati,
+	[RequiredByFeature("GL_ATI_fragment_shader")]
+	Reg17Ati,
+	[RequiredByFeature("GL_ATI_fragment_shader")]
+	Reg18Ati,
+	[RequiredByFeature("GL_ATI_fragment_shader")]
+	Reg19Ati,
+	[RequiredByFeature("GL_ATI_fragment_shader")]
+	Reg20Ati,
+	[RequiredByFeature("GL_ATI_fragment_shader")]
+	Reg21Ati,
+	[RequiredByFeature("GL_ATI_fragment_shader")]
+	Reg22Ati,
+	[RequiredByFeature("GL_ATI_fragment_shader")]
+	Reg23Ati,
+	[RequiredByFeature("GL_ATI_fragment_shader")]
+	Reg24Ati,
+	[RequiredByFeature("GL_ATI_fragment_shader")]
+	Reg25Ati,
+	[RequiredByFeature("GL_ATI_fragment_shader")]
+	Reg26Ati,
+	[RequiredByFeature("GL_ATI_fragment_shader")]
+	Reg27Ati,
+	[RequiredByFeature("GL_ATI_fragment_shader")]
+	Reg28Ati,
+	[RequiredByFeature("GL_ATI_fragment_shader")]
+	Reg29Ati,
+	[RequiredByFeature("GL_ATI_fragment_shader")]
+	Reg30Ati,
+	[RequiredByFeature("GL_ATI_fragment_shader")]
+	Reg31Ati
+}
