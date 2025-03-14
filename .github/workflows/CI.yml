@@ -26,7 +26,7 @@ jobs:
         msbuild ScePSX.sln /p:Configuration=Release /m /verbosity:normal /p:WarningLevel=0
     - name: Create ZIP
       run: |
-        Compress-Archive -Path Release/* -DestinationPath ScePSX-NET48
+        Compress-Archive -Path D:\a\ScePSX-NET48\ScePSX-NET48\ScePSX\bin\Release\net48\* -DestinationPath ScePSX-NET48
         
     - name: Upload Artifact
       uses: actions/upload-artifact@v4
