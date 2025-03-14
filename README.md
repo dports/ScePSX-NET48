@@ -1,6 +1,6 @@
 <h2>This is a small, usable PS1 emulator developed entirely in C#.</h2>
 
-! [License](https://img.shields.io/badge/license-MIT-blue) ! [GitHub Release](https://img.shields.io/github/v/release/unknowall/ScePSX?label=Release) ! [Language](https://img.shields.io/github/languages/top/unknowall/ScePSX) ! [Build Status](https://img.shields.io/badge/build-passing-brightgreen) [! [Gitee Repo](https://img.shields.io/badge/Gitee-Mirror-FFB71B)](https://gitee.com/unknowall/ScePSX)
+![License](https://img.shields.io/badge/license-MIT-blue) ![GitHub Release](https://img.shields.io/github/v/release/unknowall/ScePSX?label=Release) ![Language](https://img.shields.io/github/languages/top/unknowall/ScePSX) ![Build Status](https://img.shields.io/badge/build-passing-brightgreen) [![Gitee Repo](https://img.shields.io/badge/Gitee-Mirror-FFB71B)](https://gitee.com/unknowall/ScePSX)
 ## Main features 🎮
 - **Instant Archive/Read Archive**: Save and load game progress at any time.
 - **Multi-Renderer Support**: Dynamically switch between D2D, D3D, OpenGL, and Vulkan renderers for different hardware configurations.
