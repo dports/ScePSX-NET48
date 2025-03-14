@@ -19,7 +19,7 @@
     <PackageReference Include="System.Memory" Version="4.6.0" />
   </ItemGroup>
   <ItemGroup>
-    <Reference Include="OpenGL" />
-    <Reference Include="vk" />
+    <ProjectReference Include="..\OpenGL\OpenGL.csproj" />
+    <ProjectReference Include="..\vk\vk.csproj" />
   </ItemGroup>
 </Project>
